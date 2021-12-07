@@ -21,7 +21,11 @@ We can just iterate through the list in one pass while constantly setting the ne
 calculating + keeping track of the max profit in each iteration. We return the max profit at the end of the loop.
 '''
 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 # Steps to solve
+
 # Initialize min price and max profit
 # Loop through list of prices while comparing current price.
 # Update minimum price if current price is lower than what we had in the last iteration

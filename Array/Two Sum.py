@@ -21,6 +21,9 @@ We know if a pair in the list adds up to target if (target - one of those number
 ie. if target = 9 and num[0] = 2, other num = 7. So, check if 7 exists and return their indices
 '''
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 # Steps to solve
 
 # Create empty dictionary to store seen values and indexes
