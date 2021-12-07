@@ -16,8 +16,10 @@ print(Solution().twoSum([2, 7, 11, 15], 9))
 print(Solution().twoSum([3, 2, 4], 6))
 print(Solution().twoSum([3, 3], 6))
 
-# We know if a pair in the list adds up to target if (target - one of those numbers) = the other number
-# ie. if target = 9 and num[0] = 2, other num = 7. So, check if 7 exists and return their indices
+'''
+We know if a pair in the list adds up to target if (target - one of those numbers) = the other number
+ie. if target = 9 and num[0] = 2, other num = 7. So, check if 7 exists and return their indices
+'''
 
 # Steps to solve
 
