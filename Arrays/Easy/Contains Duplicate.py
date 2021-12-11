@@ -18,7 +18,7 @@ print(Solution().containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]))
 
 '''
 We can solve this problem in one pass by creating an empty set and checking each value in the list if it appears in the
-set. If it does not, we add it to the set and keep checking. We use a set because sets 
+set. If it does not, we add it to the set and keep checking.
 '''
 
 # Time Complexity: O(n)
