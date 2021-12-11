@@ -22,3 +22,17 @@ class Solution:
                     while nums[l] == nums[l - 1] and l < r:
                         l += 1
         return res
+
+
+print(Solution().threeSum([-1, 0, 1, 2, -1, -4]))
+print(Solution().threeSum([]))
+print(Solution().threeSum([0]))
+
+'''
+First, create empty list for our answer and sort the list using .sort()
+Continue to the next iteration of the loop if value at next index is equal to val at prev index
+Use two pointer solution to solve remainder of problem which is basically two sum
+If sum > 0, need to decrease it by decreasing right pointer (moving it left to a smaller value b/c sorted)
+If sum < 0, need to increase it by increasing left pointer (moving it right to a larger value b/c sorted)
+If sum = 0, append sum list to results list
+'''

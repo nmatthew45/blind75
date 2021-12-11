@@ -1,0 +1,34 @@
+What is Object Oriented Programming?
+- Object Oriented Programming is a computer programming model that organizes code into classes and objects.
+
+What is a class?
+- A class is a user defined datatype that will act as the blueprint for its objects. It describes the attributes and
+methods that objects created from it will have
+
+What is an object?
+- An object is an instance of a class. An object has attributes defined in its class. It also has methods defined in
+its class that it can use.
+
+What is a method?
+- A method is a function defined inside of a class that describes the behaviors of an object.
+
+OOP is based off of 4 main principles
+
+1. Encapsulation
+- Encapsulation is the principle which states that all important information pertaining to an object and how it works
+is bundled inside of a class.
+    - reduce complexity
+
+2. Abstraction
+- Abstraction is when the programmer hides irrelevant data about an object to the user to reduce complexity and help
+simplify object interaction.
+    - reduce complexity
+
+3. Inheritance
+- Inheritance is when classes reuse code from other classes. A hierarchy between classes can be maintained and relevant
+code can be reused.
+    - eliminate redundant code
+
+4. Polymorphism
+- Polymorphism is when an object's behavior changes depending on the class's implementation
+    - eliminate redundant code

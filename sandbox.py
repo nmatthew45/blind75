@@ -1,3 +1,4 @@
-i = [1,2,3]
+i = [2,2,2]
 
-print(enumerate(i).__next__())
+for x, y in enumerate(i):
+    print (x,y)
